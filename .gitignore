@@ -1,0 +1,6 @@
+node_modules
+
+# For your CI this file should
+# not be ignored. But to keep
+# things simple here...
+package-lock.json
