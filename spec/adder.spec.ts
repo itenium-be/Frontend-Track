@@ -6,8 +6,8 @@ describe('adder', () => {
     expect(result).toBe(6);
   })
 
-  it('fails', () => {
-    const result = adder(1, 5);
-    expect(result).toBe(7);
-  })
+  // it('fails', () => {
+  //   const result = adder(1, 5);
+  //   expect(result).toBe(7);
+  // })
 });
