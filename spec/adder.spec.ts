@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'bun:test';
 import { adder } from '../src/adder';
 
 describe('adder', () => {

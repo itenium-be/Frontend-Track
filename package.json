@@ -1,19 +1,16 @@
 {
   "name": "frontend-setup",
-  "description": "Setting up a project with TypeScript and Jest",
+  "description": "Setting up a project with TypeScript and Bun",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
+    "test": "bun test",
     "prepare": "husky"
   },
   "author": "itenium",
   "license": "MIT",
   "devDependencies": {
-    "@jest/globals": "^29.7.0",
-    "@types/jest": "^29.5.12",
+    "@types/bun": "latest",
     "husky": "^9.1.5",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.5",
-    "typescript": "^5.5.4"
+    "typescript": "^5.8.0"
   }
 }
